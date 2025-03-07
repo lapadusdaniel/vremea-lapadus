@@ -1,0 +1,91 @@
+
+
+.favorite-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fdf9f3;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-container h2 {
+  color: #5a4a42; 
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.favorite-container p {
+  color: #5a4a42;
+  margin-bottom: 20px;
+}
+
+.add-favorite {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-favorite input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-favorite button {
+  background-color: #a97c50;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-favorite button:hover {
+  background-color: #5a4a42;
+}
+
+.empty-text {
+  font-style: italic;
+  color: #a97c50;
+  text-align: center;
+}
+
+.favorite-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorite-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-list li span {
+  color: #5a4a42;
+  font-weight: 500;
+}
+
+.favorite-list li button {
+  background-color: #dd5555;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.favorite-list li button:hover {
+  background-color: #c44c4c;
+}

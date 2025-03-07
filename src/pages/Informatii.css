@@ -1,0 +1,41 @@
+.informatii-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fdf9f3; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.informatii-container h2 {
+  color: #5a4a42; 
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.informatii-container p {
+  color: #5a4a42;
+  margin-bottom: 30px;
+}
+
+
+
+.urgenta-section h4 {
+  color: #a97c50;
+  margin-bottom: 10px;
+}
+
+.urgenta-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.urgenta-section li {
+  margin-bottom: 10px;
+  color: #5a4a42;
+}
+
+.urgenta-section li strong {
+  color: #5a4a42;
+}
