@@ -1,0 +1,61 @@
+.bancuri-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  margin: 60px auto;
+  max-width: 600px;
+  background: #fdf9f3; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.generate-joke-btn {
+  background-color: #a97c50;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.generate-joke-btn:hover {
+  background-color: #5a4a42;
+}
+
+.joke-display {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.joke-display p {
+  color: #5a4a42; 
+  margin: 0;
+  font-size: 18px;
+}
+
+@keyframes moveText {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.moving-text {
+  position: fixed;
+  bottom: 60px; /* Poziționat chiar deasupra footerului */
+  left: 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  white-space: nowrap;
+  animation: moveText 10s linear infinite;
+}
