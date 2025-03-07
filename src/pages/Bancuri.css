@@ -49,7 +49,7 @@
 
 .moving-text {
   position: fixed;
-  bottom: 60px; /* Poziționat chiar deasupra footerului */
+  bottom: 60px; 
   left: 0;
   width: 100%;
   font-size: 24px;
